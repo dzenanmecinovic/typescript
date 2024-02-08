@@ -5,7 +5,7 @@
     "rootDir": "./src",
     "outDir": "./dist",
     "removeComments": true,
-    "noEmitOnError": true,
+    "noEmitOnError": true, // ako je greska nadjena nece ga kompajlovat u .js
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
