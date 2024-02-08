@@ -1,4 +1,4 @@
-// Enums
+// Enums (built-in type)
 /* Enums allows us to declare a set of name constants 
 (collections of related values that could be numeric or string values) */
 
