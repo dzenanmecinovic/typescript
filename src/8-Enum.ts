@@ -2,6 +2,9 @@
 /* Enums allows us to declare a set of name constants 
 (collections of related values that could be numeric or string values) */
 
+/* Enum je ustvari novi TYPE koji kreiramo, ime tog enuma je type 
+a sam 'enum' je samo keyword preko kojeg kreiramo novi type */
+
 // Numeric Enums
 
 // PascalCase (veliko pocetno slovo i pocetno slovo svake sledece reci)
