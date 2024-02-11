@@ -11,6 +11,7 @@
     "strict": true,
     "skipLibCheck": true,
     "noUnusedParameters": true, // izbacuje gresku ako ima neiskoriscenih parametara funkcije
-    "noUnusedLocals": true // izbacuje gresku ako ima neiskoriscenih varijabli
+    "noUnusedLocals": true, // izbacuje gresku ako ima neiskoriscenih varijabli
+    "strictNullChecks": true // proverava Null type (type error)
   }
 }
