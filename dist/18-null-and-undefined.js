@@ -8,5 +8,5 @@ function specialDiscount(holidaySeason) {
         return (discount = 0.15);
     }
 }
-let holidayDiscount = specialDiscount(undefined);
+let holidayDiscount = specialDiscount(true);
 console.log(holidayDiscount);

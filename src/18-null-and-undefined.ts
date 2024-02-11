@@ -8,8 +8,8 @@ function specialDiscount(holidaySeason: boolean): number {
   }
 }
 
-// let holidayDiscount = specialDiscount(true); // 0.25
+let holidayDiscount = specialDiscount(true); // 0.25
 // let holidayDiscount = specialDiscount(null);
-let holidayDiscount = specialDiscount(undefined);
+// let holidayDiscount = specialDiscount(undefined);
 
 console.log(holidayDiscount);
