@@ -13,3 +13,4 @@ let tip2 = (billAmount, tipPercentage) => {
 };
 let tipAmount2 = tip(100, 0.2);
 console.log(tipAmount2);
+let frontendPathIncludes = "Angular";

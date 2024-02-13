@@ -33,4 +33,4 @@ console.log(tipAmount2);
 
 type FrontendWebDev = "HTML" | "CSS" | "JavaScript" | "Angular";
 
-// let frontendPathIncludes: FrontendWebDev = "Angular";
+let frontendPathIncludes: FrontendWebDev = "Angular";
