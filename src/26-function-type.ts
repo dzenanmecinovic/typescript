@@ -8,10 +8,10 @@
 
 // console.log(productName("Screwdriver"));
 // ----------------------------------------------
-let productName: (product: string) => string;
+// let productName: (product: string) => string;
 
-productName = (product) => {
-  return product;
-};
+// productName = (product) => {
+//   return product;
+// };
 
-console.log(productName("Screwdriver"));
+// console.log(productName("Screwdriver"));
