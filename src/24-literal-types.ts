@@ -26,7 +26,7 @@ let tip2 = (billAmount: number, tipPercentage: 0.15 | 0.2 | 0.25): number => {
   }
 };
 
-let tipAmount2 = tip(100, 0.2);
+let tipAmount2 = tip2(100, 0.2);
 // let tipAmount2 = tip2(100, "20 percent"); // wont work
 console.log(tipAmount2);
 // ------------------------------------------------------

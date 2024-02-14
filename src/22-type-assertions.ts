@@ -17,7 +17,7 @@ const dzenan: Employee = {
 
 const hiredEmployee = JSON.stringify(dzenan); // TS ne zna koji tip bi trebo da bude objekat koji je pretvoren u JSON format
 // console.log(typeof hiredEmployee); // string
-console.log(hiredEmployee);
+// console.log(hiredEmployee);
 
 // retrieving back from the local storage
 function getEmployeeInfo(

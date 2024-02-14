@@ -5,7 +5,6 @@ const dzenan = {
     dept: "Software Development",
 };
 const hiredEmployee = JSON.stringify(dzenan);
-console.log(hiredEmployee);
 function getEmployeeInfo(employeeObject) {
     return JSON.parse(employeeObject);
 }
