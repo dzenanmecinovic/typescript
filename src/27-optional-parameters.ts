@@ -1,7 +1,7 @@
-let productName: (product: string, price?: number) => string;
+// let productName: (product: string, price?: number) => string;
 
-productName = (product, price) => {
-  return `${product}, ${price}`;
-};
+// productName = (product, price) => {
+//   return `${product}, ${price}`;
+// };
 
-console.log(productName("Screwdriver"));
+// console.log(productName("Screwdriver"));
