@@ -12,3 +12,12 @@ function itemOrItems(item: Item | Item[]) {
     return item.productName;
   }
 }
+
+console.log(itemOrItems({ productName: "Laptop" }));
+console.log(
+  itemOrItems([
+    { productName: "Laptop" },
+    { productName: "TV" },
+    { productName: "Smartphone" },
+  ])
+);

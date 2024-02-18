@@ -7,3 +7,9 @@ function itemOrItems(item) {
         return item.productName;
     }
 }
+console.log(itemOrItems({ productName: "Laptop" }));
+console.log(itemOrItems([
+    { productName: "Laptop" },
+    { productName: "TV" },
+    { productName: "Smartphone" },
+]));
