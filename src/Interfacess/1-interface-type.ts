@@ -11,7 +11,7 @@
 //   hobbies: string[];
 // };
 
-// convert type to interface
+// // convert type to interface
 
 // interface Zaposleni {
 //   readonly id: number;
@@ -29,7 +29,7 @@
 // type name = string;
 // type price = number;
 
-// creating object from 'Zaposleni' interface
+// // creating object from 'Zaposleni' interface
 
 // function informacijeZaposlenog(
 //   id: number,
