@@ -14,14 +14,14 @@
 zato je GENERIC a ne SPECIFIC */
 
 // ------------------------------------------------------
-interface ProizvodInterface<T1, T2, T3> {
-  name: T1;
-  price: T2;
-  availability: T3;
-}
+// interface ProizvodInterface<T1, T2, T3> {
+//   name: T1;
+//   price: T2;
+//   availability: T3;
+// }
 
-const kurs: ProizvodInterface<string, number, boolean> = {
-  name: "TypeScript",
-  price: 15,
-  availability: true,
-};
+// const kurs: ProizvodInterface<string, number, boolean> = {
+//   name: "TypeScript",
+//   price: 15,
+//   availability: true,
+// };
