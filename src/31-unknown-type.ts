@@ -38,8 +38,8 @@
 // let kurs: unknown | string = "TypeScript";
 // let hleb: string = kurs;
 
-let kurs: string = "TypeScript";
-let hleb: unknown | string = kurs;
+// let kurs: string = "TypeScript";
+// let hleb: unknown | string = kurs;
 
 // ----------------------------------------------
 // Unknown will be absorbed by the intersection type
