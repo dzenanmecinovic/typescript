@@ -5,12 +5,12 @@
 // }
 /* Literal object types is when we pass objects literally into the function */
 
-function studentDB({ fullName }: { fullName: string }): string {
-  // DESTRUCTURING
-  return fullName;
-}
+// function studentDB({ fullName }: { fullName: string }): string {
+//   // DESTRUCTURING
+//   return fullName;
+// }
 
 // const student = { fullName: "Dzenan Mecinovic" };
 
-console.log(studentDB({ fullName: "Dzenan Mecinovic" })); // argument objekat je literal object type
-console.log(studentDB({ fullName: "Jane Williams" }));
+// console.log(studentDB({ fullName: "Dzenan Mecinovic" })); // argument objekat je literal object type
+// console.log(studentDB({ fullName: "Jane Williams" }));

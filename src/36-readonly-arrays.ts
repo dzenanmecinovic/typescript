@@ -25,15 +25,15 @@
 // console.log(copyObject);
 // console.log(originalObject);
 // --------------------------------------------------------------
-const numberArr: ReadonlyArray<number> = [10, 30, 50, 70];
-console.log(numberArr);
+// const numberArr: ReadonlyArray<number> = [10, 30, 50, 70];
+// console.log(numberArr);
 
-// numberArr.push() // Property 'push' does not exist on type 'readonly number[]'.
-// numberArr.sort() // Property 'sort' does not exist on type 'readonly number[]'.
+// // numberArr.push() // Property 'push' does not exist on type 'readonly number[]'.
+// // numberArr.sort() // Property 'sort' does not exist on type 'readonly number[]'.
 
-// properties that dont change array are allowed
-console.log(numberArr.indexOf(50));
-console.log(numberArr.length);
+// // properties that dont change array are allowed
+// console.log(numberArr.indexOf(50));
+// console.log(numberArr.length);
 
-const stringArr: ReadonlyArray<string> = ["Hello", "Im", "Dzenan"];
-console.log(stringArr.length);
+// const stringArr: ReadonlyArray<string> = ["Hello", "Im", "Dzenan"];
+// console.log(stringArr.length);
