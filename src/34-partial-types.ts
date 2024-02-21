@@ -8,12 +8,12 @@
 // ---------------------------------------------
 // Mapped Types - extremely important concept
 
-type Product2 = {
-  name: string;
-  price: number;
-};
+// type Product2 = {
+//   name: string;
+//   price: number;
+// };
 
-let kurs: Partial<Product2> = {};
+// let kurs: Partial<Product2> = {};
 // kurs.name = "JS";
 // kurs.price = 24;
 
