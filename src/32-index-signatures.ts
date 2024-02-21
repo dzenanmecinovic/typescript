@@ -14,9 +14,6 @@
 // };
 
 // let kurs: Product2 = {
-//   TS: "TS Bootcamp",
-//   JS: "JS Bootcamp",
-//   Python: "Python Bootcamp",
 // }; // sve dok se tipovi podudaraju mozemo dodavati propertije
 // -------------------------------------------------------
 // type Product2 = {
@@ -43,10 +40,10 @@
 // -------------------------------------------------------
 // dictionary je nesto u JS i TS cija je vrednost tipa objekat.
 
-type Dictionary = { [k: string]: { name: string; price: number } };
+// type Dictionary = { [k: string]: { name: string; price: number } };
 
-const kurs: Dictionary = {
-  TS: { name: "TS Bootcamp", price: 12.0 },
-  JS: { name: "JS Bootcamp", price: 15.0 },
-  Python: { name: "Python Bootcamp", price: 20.0 },
-};
+// const kurs: Dictionary = {
+//   TS: { name: "TS Bootcamp", price: 12.0 },
+//   JS: { name: "JS Bootcamp", price: 15.0 },
+//   Python: { name: "Python Bootcamp", price: 20.0 },
+// };
