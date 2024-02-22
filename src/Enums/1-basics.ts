@@ -4,10 +4,10 @@
 //   Wheat,
 // }
 
-enum Crops {
-  Barley = "Barley".length,
-  Corn = 2,
-  Wheat,
-}
+// enum Crops {
+//   Barley = "Barley".length,
+//   Corn = 2,
+//   Wheat,
+// }
 
-console.log(Crops);
+// console.log(Crops);
