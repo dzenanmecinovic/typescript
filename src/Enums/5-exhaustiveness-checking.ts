@@ -1,7 +1,7 @@
-// enum Courses {
+// const enum Courses {
 //   TS,
 //   JS,
-//   Python,
+//   paiton,
 // }
 
 // function setCoursePrice(course: Courses) {
@@ -11,9 +11,15 @@
 //     case Courses.JS:
 //       return "$25.99";
 //     default:
-//       throw new Error(`Course ${course} has not been priced.`);
+//       courseWarning(course);
+//     //   throw new Error(`Course ${course} has not been priced.`);
 //   }
 // }
 
 // console.log(setCoursePrice(Courses.JS));
-// console.log(setCoursePrice(Courses.Python));
+// console.log(setCoursePrice(Courses.TS));
+// console.log(setCoursePrice(Courses.paiton));
+
+// function courseWarning(course: Courses): never {
+//   throw new Error(`Course ${course} has not been priced.`);
+// }

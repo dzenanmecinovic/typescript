@@ -2,10 +2,10 @@
 Create an enum of product names and display it on the console
 */
 
-enum ProductNames {
-  product1 = "Apple",
-  product2 = "Kiwi",
-  product3 = "Banana",
-}
+// enum ProductNames {
+//   product1 = "Apple",
+//   product2 = "Kiwi",
+//   product3 = "Banana",
+// }
 
-console.log(ProductNames);
+// console.log(ProductNames);

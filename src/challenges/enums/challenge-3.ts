@@ -3,9 +3,21 @@ Create an enum of a single favorite product detail from the two previously creat
 and display it on the console
 */
 
-enum FavoriteProduct {
-  Name = ProductNames.product1,
-  ID = ProductIds.Apple,
-}
+// enum ProductIds {
+//   Apple = 1,
+//   Kiwi,
+//   Banana,
+// }
 
-console.log(FavoriteProduct);
+// enum ProductNames {
+//   product1 = "Apple",
+//   product2 = "Kiwi",
+//   product3 = "Banana",
+// }
+
+// enum FavoriteProduct {
+//   Name = ProductNames.product1,
+//   ID = ProductIds.Apple,
+// }
+
+// console.log(FavoriteProduct);
