@@ -1,4 +1,4 @@
-/* Interfejsi u TypeScriptu su način da se definiše struktura objekta ili klase, određujući koje će metode ili svojstva biti prisutni.
+/*  Interfejsi u TypeScriptu su način da se definiše struktura objekta ili klase.
     Oni omogućavaju proveru tipova prilikom korišćenja objekata ili klasa, čime pomažu u smanjenju grešaka tokom razvoja.
     Interfejsi se koriste za deklarisanje oblika podataka bez implementacije, čime pružaju jasnu specifikaciju
     kako bi se omogućilo dosledno korišćenje tipova u TypeScriptu. */
@@ -29,14 +29,14 @@
 // type name = string;
 // type price = number;
 
-// // creating object from 'Zaposleni' interface
+// creating object from 'Zaposleni' interface
 
 // function informacijeZaposlenog(
 //   id: number,
 //   name: string,
 //   hobbies: string[]
 // ): Zaposleni {
-//   return { id: id, name: name, hobbies: hobbies };
+//   return { id, name, hobbies };
 // }
 
 // let radnik1: Zaposleni = informacijeZaposlenog(0, "Dzenan Mecinovic", [
