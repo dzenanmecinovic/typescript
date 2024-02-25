@@ -1,4 +1,4 @@
-/* common usage of 'this' keyword is using within call bind and apply methods. */
+// // common usage of 'this' keyword is using within call bind and apply methods.
 
 // const person = {
 //   objFunc(): void {
@@ -8,7 +8,7 @@
 // };
 
 // person.objFunc();
-// ------------------------------------------------------
+// // ------------------------------------------------------
 // class Test {
 //     classFunc(): void {
 //         console.log("Class", this);
@@ -17,7 +17,7 @@
 
 // let test = new Test();
 // test.classFunc();
-// ------------------------------------------------------
+// // ------------------------------------------------------
 // function addition(): void {
 //   console.log("Function", this); // error(in strict mode), there is no object. (without strict mode) window object
 // }
