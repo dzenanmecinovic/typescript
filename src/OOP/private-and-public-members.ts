@@ -6,7 +6,7 @@
 // class Robot {
 //   //   public readonly id: number;
 //   //   public readonly model: string;
-//   // public name: string;
+//   //   public name: string;
 //   //   public durability?: string;
 //   //   private sentient: boolean;
 
