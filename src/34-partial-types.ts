@@ -13,8 +13,13 @@
 //   price: number;
 // };
 
-// let kurs: Partial<Product2> = {};
-// kurs.name = "JS";
+// let kurs: Partial<Product2> = {
+//   name: "JS",
+// };
 // kurs.price = 24;
 
-// let imeKursa: string = kurs.name; // 'undefined' is not assignable to a type 'string'
+// let imeKursa1: string = kurs.name; // 'undefined' is not assignable to a type 'string'
+// console.log(imeKursa1);
+
+// prilikom kreiranja koristimo Partial<Type> kako bismo
+// mogli da kreiramo objekat samo sa onim propertijima koje zelimo da imamo unutar tog objekta.
