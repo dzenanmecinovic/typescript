@@ -3,26 +3,25 @@
 //   price: number;
 // };
 
-// // Original Mapped Type
-// // type Product = {
-// //   [course in "TS" | "JS" | "Python"]: Course;
-// // };
+// Original Mapped Type
+// type Product = {
+//   [course in "TS" | "JS" | "Python"]: Course;
+// };
 
-// // First Iteration
-// // type RecordTYPE<KeyType, ValueType> = { [key in KeyType]: ValueType };
-// // Second Iteration
+// First Iteration
+// type RecordTYPE<KeyType, ValueType> = { [key in KeyType]: ValueType };
+// Second Iteration
 // type RecordTYPE<K extends string, ValueType> = {
 //   [key in K]: ValueType;
 // };
 
-// /* type Record<K extends keyof any, T> = {
+// type Record<K extends keyof any, T> = {
 //      [P in K]: T // types of keys in a Record Map Type could be only of type 'string | number | symbol'.
 //  }
 // let recordKeyType: keyof any;
-// */
 
-// function getCourseInfo<KeyType extends string, T>(
-//   course: RecordTYPE<KeyType, T>
+// function getCourseInfo<KeyType extends string, Course>(
+//   course: RecordTYPE<KeyType, Course>
 // ) {
 //   return course;
 // }
